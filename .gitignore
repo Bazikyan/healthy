@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Env files (never commit secrets)
+.env
+.env.*
+!.env.example
+
+# OS / Editor
+.DS_Store
+.idea/
+.vscode/
+
+# TypeScript
+*.tsbuildinfo
+
+# Frontend (Next.js)
+frontend/.next/
+frontend/out/
+frontend/next-env.d.ts
+
+# Tailwind / PostCSS caches
+.turbo/
+
+# Backend build output
+backend/dist/
+
+# Prisma
+backend/prisma/*.db
+backend/prisma/*.db-journal
+
